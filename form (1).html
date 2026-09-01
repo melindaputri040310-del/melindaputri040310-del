@@ -1,0 +1,59 @@
+<form>
+    <h1 align="center">Form Pendaftaran Coding Club SMKN 1 Subang</h1>
+
+    <p align="center">
+        Silakan isi formulir di bawah ini untuk mendaftar sebagai anggota
+        Coding Club SMKN 1 Subang.
+    </p>
+
+    <fieldset>
+        <label>Nama Lengkap:</label>
+        <input type="text" name="nama" placeholder="Masukkan nama lengkap" required>
+
+        <br><br>
+
+        <label>Alamat Email:</label>
+        <input type="email" name="email" placeholder="Masukkan alamat email" required>
+        
+        <br><br>
+
+        <label>Kelas:</label>
+        <select name="kelas" required>
+            <option value="">Pilih kelas</option>
+            <option value="X RPL 1">X RPL 1</option>
+            <option value="X RPL 2">X RPL 2</option>
+            <option value="XI RPL 1">XI RPL 1</option>
+            <option value="XI RPL 2">XI RPL 2</option>
+        </select>
+
+        <br><br>
+
+        <label>Jenis Kelamin:</label>
+        <input type="radio" name="jenis_kelamin" value="Laki-laki" required>Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan" required>Perempuan
+        
+        <br><br>
+
+        <label>Minat yang ingin dipelajari:</label>
+        <br>
+        <input type="checkbox" name="minat" value="Web Development" required>Web Development
+        <br>
+        <input type="checkbox" name="minat" value="Game Development">Game Development
+        <br>
+        <input type="checkbox" name="minat" value="UI/UX">UI/UX
+        <br>
+        <input type="checkbox" name="minat" value="Mobile Development">Mobile Development
+        
+        <br><br>
+
+        <label>Alasan ingin bergabung:</label>
+        <br>
+        <textarea name="alasan" placeholder="Masukkan alasan Anda ingin bergabung dengan Coding Club" rows="4" cols="70" required>
+</textarea>
+        <br><br>
+
+        <button type="submit">Daftar</button>
+        <button type="reset">Reset</button>
+    </fieldset>
+</form>
+```
