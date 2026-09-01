@@ -1,4 +1,4 @@
-## 👨‍💻 Identitas Pembuat
+ Identitas Pembuat
 * **Nama:** Melinda Putri Andini
 * **Kelas:** XI RPL 1
 * **Jurusan:** Rekayasa Perangkat Lunak (RPL)
